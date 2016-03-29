@@ -1,4 +1,4 @@
-Partners Capital Document Load Completion Statuses
+Client Document Load Completion Statuses
 ==================================================
 
 (Note: We normally look into three tables for completion statuses.
@@ -20,13 +20,11 @@ it, whereas although the .xml is recorded, it always returns a Satus of
 "No records were processed in this file". As such, the descriptions listed are
 only logged for the .pdf files. )
 
-1.ADD method
-  -   Success:
+1. ADD method
+  - Success:
     -   Status: CompletedOK
     -   DescriptiveStatus: Success
-
   -   Document Already Exists Failure:
     -  Status: CompletedWithErrors
-    -  DescriptiveStatus: Skipped - document already exists. (ID '30)
-
+      -  DescriptiveStatus: Skipped - document already exists. (ID '30)
 2. REPLACE method
