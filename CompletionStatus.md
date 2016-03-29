@@ -32,6 +32,9 @@ was the only .pdf in the.zip file.)
    -   Document Already Exists Failure:
     -  Status: CompletedWithErrors
     -  DescriptiveStatus: Skipped - document already exists. (ID '30)
+  - Bad Date Format Failure:
+    - Status: CompletedSevereError
+    - DescriptiveStatus: Internal error: Unparseable date: "2015-09"
 2. REPLACE method
   - Success:
     - Status: CompletedOK
@@ -39,6 +42,9 @@ was the only .pdf in the.zip file.)
   - Document Does Not Exist Failure:
     - Status: CompletedWithErrors
     - DescriptiveStatus: No ID could be found for document number 36
+  - Bad Date Format Failure:
+    - Status: CompletedSevereError
+    - DescriptiveStatus: Internal error: Unparseable date: "2015-09"
 3. UPDATE_METADATA method
    - Success:
      - Status: CompletedOK
@@ -46,6 +52,9 @@ was the only .pdf in the.zip file.)
    -  Document Does Not Exist Failure:
      - Status: CompletedWithErrors
      - DescriptiveStatus: No ID could be found for document number 36
+  - Bad Date Format Failure:
+     - Status: CompletedSevereError
+     - DescriptiveStatus: Internal error: Unparseable date: "2015-09"
 4. EXPIRE method
   - Success:
     - Status: CompletedOK
