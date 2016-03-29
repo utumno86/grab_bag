@@ -35,6 +35,9 @@ was the only .pdf in the.zip file.)
   - Bad Date Format Failure:
     - Status: CompletedSevereError
     - DescriptiveStatus: Internal error: Unparseable date: "2015-09"
+  - Account Not Found Failure:
+    - Status: CompletedSevereError
+    - DescriptiveStatus: Internal error: ** ERROR ** Error while calling NavSuite.PersistedReport on host 'http://apxenv2:50005'.  Details 'Account Not Found'. Expression: PreProcLib.isCallSuccessful(caller)
 2. REPLACE method
   - Success:
     - Status: CompletedOK
