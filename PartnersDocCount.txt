@@ -1,0 +1,77 @@
+Number of zip files in ./completed on the FTP 
+1/15           9      49     531
+1/16 		   0
+1/17           0
+1/18		   7
+1/19           8
+1/20           46
+1/21           2
+1/22		   4
+1/23           0
+1/24           0
+1/25           13
+1/26           26
+1/27           118
+1/28           137
+1/29           127
+1/30           0
+1/31           0
+
+2/01           3
+2/02           0
+2/03           0
+2/04           3
+2/05           1
+2/06           0
+2/07           0
+2/08           0
+2/09           0
+2/10           0
+2/11           3
+2/12           0
+2/14           0
+2/15           0
+2/16           0
+
+Grand Total of Document Interactions: 507
+- 15 Delete actions
+- 15 documents no longer in the portal
+477
+- Document Successfully Updated (interactions that do not change the document): 13
+464
+- No ID could be found for document # error (I.E. updates to documents not in persisted report): 16
+448
+- Account Not Found Errors: 12
+436
+
+Grand Total of Documents In PersistedReports: 428
+- Downloaded Documents : 3
+425
+
+
+Number of pdfs processed on 2/10: 106
+Number of pdfs processed on 2/11: 381
+Number of pdfs processed on 2/16: 2
+
+Total: 489
+- Deletions: 30
+459
+- Account not found: 12
+447
+- REPLACE: 17
+430
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
