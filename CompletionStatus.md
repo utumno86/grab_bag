@@ -20,6 +20,11 @@ it, whereas although the .xml is recorded, it always returns a Satus of
 "No records were processed in this file". As such, the descriptions listed are
 only logged for the .pdf files. )
 
+(Note: In the case of multiple .pdfs in a single .zip file (which we are set up
+to support, but which the client has never actually sent to us), each .pdf
+produces an individual error message indistinguishable from the case where it
+was the only .pdf in the.zip file.)
+
 1. ADD method
   - Success:
     -   Status: CompletedOK
