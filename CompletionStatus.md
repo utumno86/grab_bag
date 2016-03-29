@@ -36,11 +36,15 @@ only logged for the .pdf files. )
     - DescriptiveStatus: No ID could be found for document number 36
 3. UPDATE_METADATA method
    - Success:
+     - Status: CompletedOK
+     - DescriptiveStatus: Document successfully updated.
    -  Document Does Not Exist Failure:
      - Status: CompletedWithErrors
      - DescriptiveStatus: No ID could be found for document number 36
 4. EXPIRE method
   - Success:
+    - Status: CompletedOK
+    - DescriptiveStatus: Document successfully replaced.
   -  Document Does Not Exist Failure:
     - Status: CompletedWithErrors
     - DescriptiveStatus: No ID could be found for document number 36
