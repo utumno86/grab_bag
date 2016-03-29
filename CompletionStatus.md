@@ -24,7 +24,30 @@ only logged for the .pdf files. )
   - Success:
     -   Status: CompletedOK
     -   DescriptiveStatus: Success
-  -   Document Already Exists Failure:
+   -   Document Already Exists Failure:
     -  Status: CompletedWithErrors
-      -  DescriptiveStatus: Skipped - document already exists. (ID '30)
+    -  DescriptiveStatus: Skipped - document already exists. (ID '30)
 2. REPLACE method
+  - Success:
+    - Status: CompletedOK
+    - DescriptiveStatus: Document successfully replaced.
+  - Document Does Not Exist Failure:
+    - Status: CompletedWithErrors
+    - DescriptiveStatus: No ID could be found for document number 36
+3. UPDATE_METADATA method
+   - Success:
+   -  Document Does Not Exist Failure:
+     - Status: CompletedWithErrors
+     - DescriptiveStatus: No ID could be found for document number 36
+4. EXPIRE method
+  - Success:
+  -  Document Does Not Exist Failure:
+    - Status: CompletedWithErrors
+    - DescriptiveStatus: No ID could be found for document number 36
+5. DELETE method
+  - Success:
+    - Status: CompletedOK
+    - DescriptiveStatus: Document successfully deleted
+  - Document Does Not Exist Failure:
+    - Status: CompletedWithErrors
+    - DescriptiveStatus: No ID could be found for document number 36
