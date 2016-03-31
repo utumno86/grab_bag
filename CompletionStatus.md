@@ -44,6 +44,7 @@ was the only .pdf in the.zip file.)
   - Broken XML Failure
     - Status: Received
     - DescriptiveStatus: File Statement-2015 Q3_C5030637_28_1.pdf received but not processed yet
+    
 2. REPLACE method
   - Success:
     - Status: CompletedOK
@@ -63,6 +64,7 @@ was the only .pdf in the.zip file.)
   - Broken XML Failure:
     - Status: Received
     - DescriptiveStatus: File Statement-2015 Q3_C5030637_28_1.pdf received but not processed yet
+
 3. UPDATE_METADATA method
    - Success:
      - Status: CompletedOK
@@ -76,6 +78,7 @@ was the only .pdf in the.zip file.)
   - Broken XML Failure:
     - Status: Received
     - DescriptiveStatus: File Statement-2015 Q3_C5030637_28_1.pdf received but not processed yet
+
 4. EXPIRE method
   - Success:
     - Status: CompletedOK
