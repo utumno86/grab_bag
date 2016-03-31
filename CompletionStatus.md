@@ -41,6 +41,9 @@ was the only .pdf in the.zip file.)
   - No PDF Failure:
     - Status: Received
     - DescriptiveStatus: File Statement-2015 Q3_C5030637_28_1.pdf received but not processed yet
+  - Broken XML Failure
+    - Status: Received
+    - DescriptiveStatus: File Statement-2015 Q3_C5030637_28_1.pdf received but not processed yet
 2. REPLACE method
   - Success:
     - Status: CompletedOK
@@ -57,6 +60,9 @@ was the only .pdf in the.zip file.)
   - No PDF Failure:
     - Status: Received
     - DescriptiveStatus: File Statement-2015 Q3_C5030637_28_1.pdf received but not processed yet
+  - Broken XML Failure:
+    - Status: Received
+    - DescriptiveStatus: File Statement-2015 Q3_C5030637_28_1.pdf received but not processed yet
 3. UPDATE_METADATA method
    - Success:
      - Status: CompletedOK
@@ -67,13 +73,20 @@ was the only .pdf in the.zip file.)
   - Bad Date Format Failure:
      - Status: CompletedSevereError
      - DescriptiveStatus: Internal error: Unparseable date: "2015-09"
+  - Broken XML Failure:
+    - Status: Received
+    - DescriptiveStatus: File Statement-2015 Q3_C5030637_28_1.pdf received but not processed yet
 4. EXPIRE method
   - Success:
     - Status: CompletedOK
-    - DescriptiveStatus: Document successfully replaced.
+    - DescriptiveStatus: Document successfully updated.
   -  Document Does Not Exist Failure:
     - Status: CompletedWithErrors
     - DescriptiveStatus: No ID could be found for document number 36
+  - Broken XML:
+    - Status: Received
+    - DescriptiveStatus: File Statement-2015 Q3_C5030637_28_1.pdf received but not processed yet
+
 5. DELETE method
   - Success:
     - Status: CompletedOK
@@ -81,3 +94,6 @@ was the only .pdf in the.zip file.)
   - Document Does Not Exist Failure:
     - Status: CompletedWithErrors
     - DescriptiveStatus: No ID could be found for document number 36
+  - Broken XML:
+    - Status: Received
+    - DescriptiveStatus: File Statement-2015 Q3_C5030637_28_1.pdf received but not processed yet
