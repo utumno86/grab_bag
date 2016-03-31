@@ -38,6 +38,9 @@ was the only .pdf in the.zip file.)
   - Account Not Found Failure:
     - Status: CompletedSevereError
     - DescriptiveStatus: Internal error: ** ERROR ** Error while calling NavSuite.PersistedReport on host 'Server'.  Details 'Account Not Found'. Expression: PreProcLib.isCallSuccessful(caller)
+  - No PDF Failure:
+    - Status: Received
+    - DescriptiveStatus: File Statement-2015 Q3_C5030637_28_1.pdf received but not processed yet
 2. REPLACE method
   - Success:
     - Status: CompletedOK
@@ -51,6 +54,9 @@ was the only .pdf in the.zip file.)
   - Account Not Found Failure:
     - Status: CompletedSevereError
     - DescriptiveStatus: Internal error: ** ERROR ** Error while calling NavSuite.PersistedReport on host 'Server'.  Details 'Account Not Found'. Expression: PreProcLib.isCallSuccessful(caller)
+  - No PDF Failure:
+    - Status: Received
+    - DescriptiveStatus: File Statement-2015 Q3_C5030637_28_1.pdf received but not processed yet
 3. UPDATE_METADATA method
    - Success:
      - Status: CompletedOK
