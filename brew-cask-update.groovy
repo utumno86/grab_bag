@@ -5,6 +5,9 @@ programList.each { program ->
   // println "brew cask install --force $program".execute().text
   def versionList = "ls -trh /opt/homebrew-cask/Caskroom/$program".execute().text.split("\n")
   if (versionList.size() > 1) {
-    println(versionList[0])
+    def removeFolder = { i ->
+      println versionList[i]
+    }
+    0.upto(versionList.size() - 2, removeFolder)
   }
 }
