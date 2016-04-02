@@ -4,5 +4,9 @@ for program in `brew cask list`
 do
   echo $program
   # brew cask install --force "$program"
-  echo `ls -trh /opt/homebrew-cask/Caskroom/$program`
+  for version in `ls -trh /opt/homebrew-cask/Caskroom/$program`
+
+  do
+    echo $version
+  done
 done
