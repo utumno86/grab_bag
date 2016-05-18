@@ -28,4 +28,4 @@
 0       19      *       *       *       find /data/drop/archive/Archive/ -name "*zip" -type f mtime +3 -exec gzip {} \;
 0       20      *       *       *       find /data/drop/archive/Archive/ -name "*csv" -type f mtime +3 -exec gzip {} \;
 0       21      *       *       *       mv /data/drop/log/PCAP010-PartnersCapitalDailyLoad/*.gz /data/drop/log/PCAP010-PartnersCapitalDailyLoad/archive
-0       22      *       *       *       mv /data/drop/log/PCAP020-PartnersCapitalDocumentLoad/*.gz /data/drop/log/PCAP020-PartnersCapitalDocumentLoad/archive
+0       22      *       *       *       mv /data/drop/log/PCAP020-PartnersCapitalDocumentUpload/*.gz /data/drop/log/PCAP020-PartnersCapitalDocumentUpload/archive
