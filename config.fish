@@ -1,0 +1,30 @@
+set -g -x PATH /usr/local/bin $PATH
+set -g -x fish_greeting 'Good Morning Michael! ALL YOUR BASE ARE BELONG TO US!!!!'
+
+export BUNDLER_EDITOR=atom
+
+alias att="atom ."
+alias gu="gem update"
+alias gemc="gem cleanup"
+alias nu="npm update"
+alias plo="pip list --outdated"
+alias piu="pip install --upgrade"
+alias p3lo="pip3 list --outdated"
+alias p3iu="pip3 install --upgrade"
+alias au="apm update"
+alias bu="brew update"
+alias bo="brew outdated"
+alias bup="brew upgrade -all"
+alias bc="brew cleanup"
+alias ll="ls -lathr"
+alias exc="cd ~/Coding/exercism_exercises/ruby"
+alias profile="cd ~/Coding/profile"
+alias ef="exercism fetch"
+alias es="exercism submit"
+alias el="exercism list"
+alias pgstart="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
+alias pgstop="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log stop"
+alias fs="foreman start"
+alias bcup="groovy $ETL_ROOT_DIRECTORY/UsefulCrap/brew-cask-update.groovy"
+alias log="git log --graph --pretty=format:'%Cred%H%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset'"
+alias del="rm -rf"
