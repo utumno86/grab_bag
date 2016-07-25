@@ -2,4 +2,4 @@
 
 f=document.pdf
 now=`date +"%Y%m%d_T%H%M%S"`
-mv $f $f$now
+mv $f test/$f$now
