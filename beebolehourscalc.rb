@@ -14,7 +14,10 @@ else
   lunch_break = false
 end
 
+puts Time.parse(start_time)
 
-
+if lunch_break
+	puts "Lunch Break"
+end
 
 puts Time.new
