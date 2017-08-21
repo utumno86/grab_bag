@@ -1,7 +1,7 @@
 #!/bin/bash
-for file in /data/drop/inbox/queue/JobName/*.zip
+for file in /data/drop/inbox/queue//*.zip
 
 do
   echo $file
-  ./runFolder.sh JobName "$file"
+  ./runFolder.sh  "$file"
 done

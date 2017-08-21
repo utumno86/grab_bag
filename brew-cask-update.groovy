@@ -12,3 +12,5 @@ programList.each { program ->
     0.upto(versionList.size() - 2, removeFolder)
   }
 }
+
+println "brew cask cleanup".execute().text
