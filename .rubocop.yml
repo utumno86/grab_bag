@@ -29,7 +29,7 @@ Layout/IndentationConsistency:
 Layout/BlockAlignment:
   Enabled: true
 
-Lint/DefEndAlignment:
+Layout/DefEndAlignment:
   Enabled: true
 
 Layout/AlignArray:
